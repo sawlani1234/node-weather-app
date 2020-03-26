@@ -94,8 +94,7 @@ app.get('*',(req,res) => {
 res.render('404',{
     title: '404',
     name: 'Shubham',
-    errorMessage: 'Page Not found'    
-})
+    errorMessage: 'Page Not found' })
 })
 
 app.listen(port, () => {
